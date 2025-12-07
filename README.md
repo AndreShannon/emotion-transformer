@@ -86,7 +86,11 @@ pip install --upgrade pip
 pip install requirements.txt
 ```
 
-If you use CUDA wheels, adjust the PyTorch install command according to your GPU/driver.
+If you use CUDA wheels, you might want to install the GPU build of PyTorch manually according to your GPU/driver, e.g.:
+
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+```
 
 ---
 
