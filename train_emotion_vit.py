@@ -185,7 +185,7 @@ def collect_preds_and_labels(model, data_loader, device):
 
 def main():
     run_config = {
-        "model_type": "vit_patch",        # "vit_cnn" or "vit_patch"
+        "model_type": "vit_cnn",        # "vit_cnn" or "vit_patch"
         "img_size": 48,
         "in_chans": 1,
         "stem_channels": 64,            # if using CNNImageEmbedding
