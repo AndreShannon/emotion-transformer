@@ -67,6 +67,7 @@ data/emotion_detection_fer/
         neutral/
         sad/
         surprised/
+```
 
 By default, the script:
 - Uses train/ for train + validation (90% / 10% split).
@@ -89,7 +90,11 @@ If you use CUDA wheels, adjust the PyTorch install command according to your GPU
 
 ## Training
 
-The main training script is: python train_emotion_vit.py
+The main training script is: 
+
+```bash
+python train_emotion_vit.py
+```
 
 Key features:
 
