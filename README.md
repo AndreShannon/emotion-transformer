@@ -77,12 +77,14 @@ By default, the script:
 
 ## Installation
 
+```bash
 # Create and activate a virtualenv
 python3 -m venv .venv
 source .venv/bin/activate
 
 pip install --upgrade pip
 pip install requirements.txt
+```
 
 If you use CUDA wheels, adjust the PyTorch install command according to your GPU/driver.
 
@@ -120,6 +122,7 @@ Key features:
 ## Experiment Tracking
 
 Each training run creates a timestamped directory under runs/, e.g.:
+```text
 runs/2025xxxx_xxxxxx_vit_cnn_ed192_d6_h6_lr0.0005/
     config.json           # hyperparameters for the run
     best_model.pt         # best validation checkpoint
@@ -128,6 +131,7 @@ runs/2025xxxx_xxxxxx_vit_cnn_ed192_d6_h6_lr0.0005/
     accuracy_curve.png    # train vs val accuracy
     confusion_matrix.png  # normalized confusion matrix with labels
     results.json          # final test metrics (acc, precision, recall, F1, etc)
+```
 
 ---
 
