@@ -6,6 +6,9 @@ This project implements a **Vision Transformer (ViT)** and a **CNN + ViT hybrid*
 
 The dataset is the FER-style **Emotion Detection FER** dataset from Kaggle, and training is done on a Slurm GPU cluster.
 
+This was part of a bigger project where my teammates trained different models to classify the same dataset and there is a fun little demo with trained versions of our models at:
+https://huggingface.co/spaces/jasonsfmeitian/emo_class_csc871
+
 ChatGPT was used in this project
 
 ---
